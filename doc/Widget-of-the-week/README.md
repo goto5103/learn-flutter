@@ -10,7 +10,7 @@ Widget of the Week 　プレイリスト
 | #2   | [Expanded]()                                     |
 | #3   | [Wrap]()                                         |
 | #4   | [AnimatedContainer](./%234_AnimatedContainer.md) |
-| #5   | [Opacity] (./%235_Opacity.md)                    |
+| #5   | [Opacity](./%235_Opacity.md)                     |
 | #6   | [FutureBuilder](./%236_FutureBuilder.md)         |
 | #7   |                                                  |
 | #8   |                                                  |
