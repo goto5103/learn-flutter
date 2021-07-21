@@ -11,7 +11,7 @@
 
 ## 使い方
 
-AnimatedContainer に変数を指定し、setState などで変更し再ビルドされると Widget が変化します。
+AnimatedContainer に変数を指定し、setState で変更し再ビルドされると Widget が変化します。
 
 ```dart
 class _SampleState extends State<WidgetAnimatedContainer> {
