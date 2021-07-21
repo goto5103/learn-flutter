@@ -6,4 +6,11 @@ class WidgetList {
 
 enum Widgets {
   SafeArea,
+  Expanded,
+  Wrap,
+  AnimatedContainer,
+  Opacity,
+  FutureBuilder,
+  FadeTransition,
+  FloatingActionButton
 }
