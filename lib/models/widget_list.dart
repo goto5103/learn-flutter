@@ -12,5 +12,6 @@ enum Widgets {
   Opacity,
   FutureBuilder,
   FadeTransition,
-  FloatingActionButton
+  FloatingActionButton,
+  
 }

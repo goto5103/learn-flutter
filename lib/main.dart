@@ -5,6 +5,7 @@ import 'package:lean/redux/reducer/app_reducer.dart';
 import 'package:lean/redux/state/app_state.dart';
 import 'package:lean/views/animated_container.dart';
 import 'package:lean/views/expanded.dart';
+import 'package:lean/views/future_builder.dart';
 import 'package:lean/views/opacity.dart';
 import 'package:lean/views/wrap.dart';
 import 'package:redux/redux.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
             "/Wrap":(BuildContext context) => WidgetWrap(),
             "/AnimatedContainer":(BuildContext context) => WidgetAnimatedContainer(),
             "/Opacity":(BuildContext context) => WidgetOpacity(),
+            "/FutureBuilder":(BuildContext context) => WidgetFutureBuilder(),
           },
         ));
   }
