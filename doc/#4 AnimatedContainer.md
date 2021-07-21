@@ -4,18 +4,14 @@
 
 リファレンス：https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html
 
-
-
-何をするWidgetか？
+## 何をする Widget か？
 
 - 簡単にアニメーションを再現することができる
 - 色、線、高さなどの様々なアニメーションを実装可能
 
+## 使い方
 
-
-**使い方**
-
-AnimatedContainerに変数を指定し、setStateなどで変更し再ビルドされるとWidgetが変化します。
+AnimatedContainer に変数を指定し、setState などで変更し再ビルドされると Widget が変化します。
 
 ```dart
 class _SampleState extends State<WidgetAnimatedContainer> {
@@ -40,13 +36,7 @@ class _SampleState extends State<WidgetAnimatedContainer> {
     )
 ```
 
-
-
-
-
-
-
-**サンプル**
+## サンプル
 
 フローティングアクションボタンをタップするごとにランダムに色、幅、高さ、角の丸みが変化する。
 
@@ -54,9 +44,6 @@ class _SampleState extends State<WidgetAnimatedContainer> {
 
 ![image-20210721212209555](image-20210721212209555.png)
 
-
-
-**内部**
+## 内部
 
 継承：ImplicitlyAnimatedWidget
-
