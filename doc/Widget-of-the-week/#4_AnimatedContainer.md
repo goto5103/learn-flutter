@@ -40,9 +40,9 @@ class _SampleState extends State<WidgetAnimatedContainer> {
 
 フローティングアクションボタンをタップするごとにランダムに色、幅、高さ、角の丸みが変化する。
 
-![image-20210721212145899](image-20210721212145899.png)
+![image-20210721212145899](img/%234_AnimatedContainer/image-20210721212145899.png)
 
-![image-20210721212209555](image-20210721212209555.png)
+![image-20210721212209555](img/%234_AnimatedContainer/image-20210721212209555.png)
 
 ## 内部
 
