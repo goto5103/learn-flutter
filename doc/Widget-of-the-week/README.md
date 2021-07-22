@@ -12,7 +12,7 @@ Widget of the Week 　プレイリスト
 | #4   | [AnimatedContainer](./%234_AnimatedContainer.md) |
 | #5   | [Opacity](./%235_Opacity.md)                     |
 | #6   | [FutureBuilder](./%236_FutureBuilder.md)         |
-| #7   | [FadeTransition]()                               |
+| #7   | [FadeTransition](./%237_FadeTransition.md)       |
 | #8   | [FloatingActionButton]()                         |
 | #9   | [PageView]()                                     |
 | #10  | [Table]()                                        |
