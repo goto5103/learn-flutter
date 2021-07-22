@@ -1,4 +1,4 @@
-# #6 FutureBuilder
+# #7 FadeTransition
 
 動画：https://www.youtube.com/watch?v=rLwWVbv3xDQ
 
