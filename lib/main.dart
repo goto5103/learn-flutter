@@ -8,6 +8,7 @@ import 'package:lean/views/fadeTransition.dart';
 import 'package:lean/views/floating_action_button.dart';
 import 'package:lean/views/future_builder.dart';
 import 'package:lean/views/opacity.dart';
+import 'package:lean/views/page_view.dart';
 import 'package:lean/views/wrap.dart';
 import 'package:redux/redux.dart';
 
@@ -45,6 +46,7 @@ class MyApp extends StatelessWidget {
             "/FadeTransition": (BuildContext context) => WidgetFadeTransition(),
             "/FloatingActionButton": (BuildContext context) =>
                 WidgetFloatingActionButton(),
+            "/PageView": (BuildContext context) => WidgetPageView(),
           },
         ));
   }
