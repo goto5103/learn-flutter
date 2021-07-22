@@ -7,8 +7,12 @@ class WidgetFadeTransition extends StatefulWidget {
 
 class _WidgetFadeTransitionState extends State<WidgetFadeTransition>
     with SingleTickerProviderStateMixin {
+  // AnimationControllerを作成し、durationを設定
   AnimationController _controller;
+
+  // Animationを作成し、透過度の開始と終了を設定、AnimationController経由でアニメートする
   Animation _animation;
+  
   @override
   initState() {
     _controller =
@@ -25,12 +29,14 @@ class _WidgetFadeTransitionState extends State<WidgetFadeTransition>
 
   @override
   Widget build(BuildContext context) {
+    // アニメーションの開始
     _controller.forward();
     return Scaffold(
         appBar: AppBar(
           title: Text("FadeTransition"),
           centerTitle: true,
         ),
+        // FadeTransitionウィジェット
         body: FadeTransition(
           opacity: _animation,
           child: Text("フェード"),
