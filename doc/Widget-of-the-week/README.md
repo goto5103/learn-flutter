@@ -12,15 +12,15 @@ Widget of the Week 　プレイリスト
 | #4   | [AnimatedContainer](./%234_AnimatedContainer.md) |
 | #5   | [Opacity](./%235_Opacity.md)                     |
 | #6   | [FutureBuilder](./%236_FutureBuilder.md)         |
-| #7   |                                                  |
-| #8   |                                                  |
-| #9   |                                                  |
-| #10  |                                                  |
-| #11  |                                                  |
-| #12  |                                                  |
-| #13  |                                                  |
-| #14  |                                                  |
-| #15  |                                                  |
+| #7   | [FadeTransition]()                               |
+| #8   | [FloatingActionButton]()                         |
+| #9   | [PageView]()                                     |
+| #10  | [Table]()                                        |
+| #11  | [SliverAppBar]()                                 |
+| #12  | [SliverList,SliverGrid]()                        |
+| #13  | [FadeInImage]()                                  |
+| #14  | [StreamBuilder]()                                |
+| #15  | [InheritedModel]()                               |
 | #16  |                                                  |
 | #17  |                                                  |
 | #18  |                                                  |
