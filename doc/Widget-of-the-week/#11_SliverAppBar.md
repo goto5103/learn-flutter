@@ -34,13 +34,13 @@ return Scaffold(
 
 ## サンプル
 
+floating:true, pinned:false, snap: true の場合の動き
+詳しくはリファレンスのサンプル動画が参考になる
 ![image-20210725164018074](img/%2311_SliverAppBar/image-20210725164018074.png)
 
 ![image-20210725164056382](img/%2311_SliverAppBar/image-20210725164056382.png)
 
 ![image-20210725164114344](img/%2311_SliverAppBar/image-20210725164114344.png)
-
-
 
 ## 内部
 
