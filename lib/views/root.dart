@@ -26,7 +26,7 @@ class _RootState extends State<Root> {
                 ),
               ),
               child: ListTile(
-                title: Text(listItem[index]),
+                title: Text("#${index+1} ${listItem[index]}"),
                 // subtitle: Text('&listItem'),
                 onTap: () {
                   print("tap ${listItem[index]}");
