@@ -9,6 +9,7 @@ import 'package:lean/views/floating_action_button.dart';
 import 'package:lean/views/future_builder.dart';
 import 'package:lean/views/opacity.dart';
 import 'package:lean/views/page_view.dart';
+import 'package:lean/views/sliver_app_bar.dart';
 import 'package:lean/views/table.dart';
 import 'package:lean/views/wrap.dart';
 import 'package:redux/redux.dart';
@@ -49,6 +50,7 @@ class MyApp extends StatelessWidget {
                 WidgetFloatingActionButton(),
             "/PageView": (BuildContext context) => WidgetPageView(),
             "/Table": (BuildContext context) => WidgetTable(),
+            "/SliverAppBar": (BuildContext context) => WidgetSliverAppBar(),
           },
         ));
   }
