@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:lean/redux/reducer/app_reducer.dart';
 import 'package:lean/redux/state/app_state.dart';
+import 'package:lean/views/FadeInImage.dart';
 import 'package:lean/views/animated_container.dart';
 import 'package:lean/views/expanded.dart';
 import 'package:lean/views/fadeTransition.dart';
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
             "/Table": (BuildContext context) => WidgetTable(),
             "/SliverAppBar": (BuildContext context) => WidgetSliverAppBar(),
             "/SliverList_SliverGrid": (BuildContext context) => WidgetSliverList_SliverGrid(),
+            "/FadeInImage": (BuildContext context) => WidgetFadeInImage(),
           },
         ));
   }
