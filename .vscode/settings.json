@@ -1,0 +1,31 @@
+{
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // 貼り付けを行ったときに自動でフォーマット
+  "editor.formatOnPaste": true,
+  // ファイル保存時に自動でフォーマット
+  "editor.formatOnSave": true,
+  // 入力した行を自動でフォーマット
+  "editor.formatOnType": true,
+  // ミニマップの最大幅
+  "editor.minimap.maxColumn": 60,
+  // ミニマップのスライダーの表示方法
+  "editor.minimap.showSlider": "always",
+  // ミニマップのサイズ
+  "editor.minimap.size": "fit",
+  // 制御文字を表示
+  "editor.renderControlCharacters": true,
+  // エディター上での空白文字の表示方法
+  "editor.renderWhitespace": "all",
+  // 1つのタブに相当する半角スペースの数
+  "editor.tabSize": 2,
+  // 改行コードの規定値
+  "files.eol": "\n",
+  // ファイル保存時に行末に改行を挿入
+  "files.insertFinalNewline": true,
+  // ファイル保存時に最終行以降の空行を削除
+  "files.trimFinalNewlines": true,
+  // ファイル保存時に各行の末尾にある半角スペースを削除
+  "files.trimTrailingWhitespace": true,
+  // ファイルアイコンテーマ
+  "workbench.iconTheme": "vscode-icons"
+}
