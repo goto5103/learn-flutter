@@ -7,8 +7,7 @@ class Root extends StatefulWidget {
 }
 
 class _RootState extends State<Root> {
-  // var listItem = ['SafeArea'];
-  final listItem = WidgetList.getList();
+  final widgetList = WidgetList().getWidgetList();
 
   @override
   Widget build(BuildContext context) {
@@ -26,18 +25,15 @@ class _RootState extends State<Root> {
                 ),
               ),
               child: ListTile(
-                title: Text("#${index+1} ${listItem[index]}"),
+                title: Text("${widgetList[index].displayName}"),
                 // subtitle: Text('&listItem'),
                 onTap: () {
-                  print("tap ${listItem[index]}");
-                  Navigator.of(context).pushNamed("/${listItem[index]}");
+                  Navigator.of(context).pushNamed("${widgetList[index].path}");
                 },
               ));
         },
-        itemCount: WidgetList.getList().length,
+        itemCount: widgetList.length,
       ),
     );
   }
 }
-
-class Navigate {}
