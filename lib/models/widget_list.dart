@@ -10,6 +10,7 @@ import 'package:lean/views/page_view.dart';
 import 'package:lean/views/safearea.dart';
 import 'package:lean/views/sliver_app_bar.dart';
 import 'package:lean/views/sliver_list__sliver_grid.dart';
+import 'package:lean/views/stream_builder.dart';
 import 'package:lean/views/table.dart';
 import 'package:lean/views/wrap.dart';
 
@@ -50,7 +51,7 @@ class WidgetList {
     WidgetSliverAppBar(),
     WidgetSliverList_SliverGrid(),
     WidgetFadeInImage(),
-    // WidgetStreamBuilder(),
+    WidgetStreamBuilder(),
     // WidgetInheritedModel(),
     // WidgetClipRRect(),
     // WidgetHero(),
