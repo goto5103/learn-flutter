@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lean/views/Inherited_model.dart';
 import 'package:lean/views/animated_container.dart';
 import 'package:lean/views/expanded.dart';
 import 'package:lean/views/fadeInImage.dart';
@@ -52,7 +53,7 @@ class WidgetList {
     WidgetSliverList_SliverGrid(),
     WidgetFadeInImage(),
     WidgetStreamBuilder(),
-    // WidgetInheritedModel(),
+    WidgetInheritedModel(),
     // WidgetClipRRect(),
     // WidgetHero(),
     // WidgetCustomPaint(),
