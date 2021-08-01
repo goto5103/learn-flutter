@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
 import 'package:lean/views/widget-of-the-week/animated_container.dart';
+import 'package:lean/views/widget-of-the-week/clip_r_rect.dart';
+import 'package:lean/views/widget-of-the-week/custom_paint.dart';
 import 'package:lean/views/widget-of-the-week/expanded.dart';
 import 'package:lean/views/widget-of-the-week/fadeInImage.dart';
 import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
+import 'package:lean/views/widget-of-the-week/fitted_box.dart';
 import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
 import 'package:lean/views/widget-of-the-week/future_builder.dart';
+import 'package:lean/views/widget-of-the-week/hero.dart';
 import 'package:lean/views/widget-of-the-week/opacity.dart';
 import 'package:lean/views/widget-of-the-week/page_view.dart';
 import 'package:lean/views/widget-of-the-week/safearea.dart';
@@ -13,6 +17,7 @@ import 'package:lean/views/widget-of-the-week/sliver_app_bar.dart';
 import 'package:lean/views/widget-of-the-week/sliver_list__sliver_grid.dart';
 import 'package:lean/views/widget-of-the-week/stream_builder.dart';
 import 'package:lean/views/widget-of-the-week/table.dart';
+import 'package:lean/views/widget-of-the-week/tooltip.dart';
 import 'package:lean/views/widget-of-the-week/wrap.dart';
 
 class WidgetListRow {
@@ -54,11 +59,11 @@ class WidgetList {
     WidgetFadeInImage(),
     WidgetStreamBuilder(),
     WidgetInheritedModel(),
-    // WidgetClipRRect(),
-    // WidgetHero(),
-    // WidgetCustomPaint(),
-    // WidgetTooltip(),
-    // WidgetFittedBox(),
+    WidgetClipRRect(),
+    WidgetHero(),
+    WidgetCustomPaint(),
+    WidgetTooltip(),
+    WidgetFittedBox(),
     // WidgetLayoutBuilder(),
     // WidgetAbsorbPointer(),
     // WidgetTransform(),
