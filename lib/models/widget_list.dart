@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:lean/views/animated_container.dart';
-import 'package:lean/views/expanded.dart';
-import 'package:lean/views/fadeInImage.dart';
-import 'package:lean/views/fadeTransition.dart';
-import 'package:lean/views/floating_action_button.dart';
-import 'package:lean/views/future_builder.dart';
-import 'package:lean/views/opacity.dart';
-import 'package:lean/views/page_view.dart';
-import 'package:lean/views/safearea.dart';
-import 'package:lean/views/sliver_app_bar.dart';
-import 'package:lean/views/sliver_list__sliver_grid.dart';
-import 'package:lean/views/table.dart';
-import 'package:lean/views/wrap.dart';
+import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
+import 'package:lean/views/widget-of-the-week/animated_container.dart';
+import 'package:lean/views/widget-of-the-week/expanded.dart';
+import 'package:lean/views/widget-of-the-week/fadeInImage.dart';
+import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
+import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
+import 'package:lean/views/widget-of-the-week/future_builder.dart';
+import 'package:lean/views/widget-of-the-week/opacity.dart';
+import 'package:lean/views/widget-of-the-week/page_view.dart';
+import 'package:lean/views/widget-of-the-week/safearea.dart';
+import 'package:lean/views/widget-of-the-week/sliver_app_bar.dart';
+import 'package:lean/views/widget-of-the-week/sliver_list__sliver_grid.dart';
+import 'package:lean/views/widget-of-the-week/stream_builder.dart';
+import 'package:lean/views/widget-of-the-week/table.dart';
+import 'package:lean/views/widget-of-the-week/wrap.dart';
 
 class WidgetListRow {
   String widgetName; // 試すWidgetの名前
@@ -50,8 +52,8 @@ class WidgetList {
     WidgetSliverAppBar(),
     WidgetSliverList_SliverGrid(),
     WidgetFadeInImage(),
-    // WidgetStreamBuilder(),
-    // WidgetInheritedModel(),
+    WidgetStreamBuilder(),
+    WidgetInheritedModel(),
     // WidgetClipRRect(),
     // WidgetHero(),
     // WidgetCustomPaint(),

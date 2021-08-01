@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import "package:lean/models/widget_list.dart";
 
-class Root extends StatefulWidget {
+class WidgetOfTheWeek extends StatefulWidget {
   @override
-  _RootState createState() => _RootState();
+  _WidgetOfTheWeekState createState() => _WidgetOfTheWeekState();
 }
 
-class _RootState extends State<Root> {
-  List<String> list = ["/WidgetOfTheWeek"];
+class _WidgetOfTheWeekState extends State<WidgetOfTheWeek> {
+  final widgetList = WidgetList().getWidgetList();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter Learning"),
+        title: Text("Widget Of The Week"),
         centerTitle: true,
       ),
       body: ListView.builder(
@@ -25,14 +25,14 @@ class _RootState extends State<Root> {
                 ),
               ),
               child: ListTile(
-                title: Text("${list[index]}"),
+                title: Text("${widgetList[index].displayName}"),
                 // subtitle: Text('&listItem'),
                 onTap: () {
-                  Navigator.of(context).pushNamed("${list[index]}");
+                  Navigator.of(context).pushNamed("${widgetList[index].path}");
                 },
               ));
         },
-        itemCount: list.length,
+        itemCount: widgetList.length,
       ),
     );
   }
