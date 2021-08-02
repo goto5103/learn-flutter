@@ -29,7 +29,7 @@ class _WidgetAnimatedBuilderState extends State<WidgetAnimatedBuilder>
       ),
       body: Column(
         children: [
-          explanationRow(
+          explanationRowHorizontal(
               AnimatedBuilder(
                 animation: animation,
                 builder: (context, child) {

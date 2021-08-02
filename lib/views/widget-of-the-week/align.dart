@@ -16,7 +16,7 @@ class _WidgetAlignState extends State<WidgetAlign> {
       ),
       body: Column(
         children: [
-          explanationRow(
+          explanationRowHorizontal(
               Align(
                 alignment: Alignment.bottomRight,
                 child: Text(
@@ -25,7 +25,7 @@ class _WidgetAlignState extends State<WidgetAlign> {
                 ),
               ),
               "Alignmentクラスの定数を使用すると簡単に位置を指定できる。（例ではbottomRight）"),
-          explanationRow(
+          explanationRowHorizontal(
               Align(
                 alignment: Alignment(-1, 0),
                 child: Text(
@@ -34,7 +34,7 @@ class _WidgetAlignState extends State<WidgetAlign> {
                 ),
               ),
               "XY軸をそれぞれ-1から1の範囲で指定することもできる。（bottomRightなどの定数も内部的には数値を指定している）"),
-          explanationRow(
+          explanationRowHorizontal(
               Stack(
                 children: [
                   Container(

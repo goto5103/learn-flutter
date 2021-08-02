@@ -18,7 +18,7 @@ class _WidgetPositionedState extends State<WidgetPositioned>{
         ),
         body: Column(
           children: [
-            explanationRow(
+            explanationRowHorizontal(
         Stack(
           children: [
             Positioned(
@@ -30,7 +30,7 @@ class _WidgetPositionedState extends State<WidgetPositioned>{
           ],
         )
         , "縦横の位置とサイズを調整することができる"),
-          explanationRow(
+          explanationRowHorizontal(
         Stack(
           children: [
             Positioned.fill(

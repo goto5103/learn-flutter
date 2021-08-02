@@ -18,7 +18,7 @@ class _WidgetBackdropFilterState extends State<WidgetBackdropFilter> {
       ),
       body: Column(
         children: [
-          explanationRow(
+          explanationRowHorizontal(
               Stack(
                 children: [
                   image(),
