@@ -1,23 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
+import 'package:lean/views/widget-of-the-week/Inherited_widget.dart';
+import 'package:lean/views/widget-of-the-week/absorb_pointer.dart';
+import 'package:lean/views/widget-of-the-week/align.dart';
+import 'package:lean/views/widget-of-the-week/animatedIcon.dart';
+import 'package:lean/views/widget-of-the-week/animated_builder.dart';
 import 'package:lean/views/widget-of-the-week/animated_container.dart';
+import 'package:lean/views/widget-of-the-week/animated_list.dart';
+import 'package:lean/views/widget-of-the-week/backdrop_filter.dart';
 import 'package:lean/views/widget-of-the-week/clip_r_rect.dart';
 import 'package:lean/views/widget-of-the-week/custom_paint.dart';
+import 'package:lean/views/widget-of-the-week/dismissible.dart';
+import 'package:lean/views/widget-of-the-week/draggable.dart';
 import 'package:lean/views/widget-of-the-week/expanded.dart';
 import 'package:lean/views/widget-of-the-week/fadeInImage.dart';
 import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
 import 'package:lean/views/widget-of-the-week/fitted_box.dart';
+import 'package:lean/views/widget-of-the-week/flexible.dart';
 import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
 import 'package:lean/views/widget-of-the-week/future_builder.dart';
 import 'package:lean/views/widget-of-the-week/hero.dart';
+import 'package:lean/views/widget-of-the-week/layout_builder.dart';
+import 'package:lean/views/widget-of-the-week/media_query.dart';
 import 'package:lean/views/widget-of-the-week/opacity.dart';
 import 'package:lean/views/widget-of-the-week/page_view.dart';
+import 'package:lean/views/widget-of-the-week/positioned.dart';
 import 'package:lean/views/widget-of-the-week/safearea.dart';
+import 'package:lean/views/widget-of-the-week/sized_box.dart';
 import 'package:lean/views/widget-of-the-week/sliver_app_bar.dart';
 import 'package:lean/views/widget-of-the-week/sliver_list__sliver_grid.dart';
+import 'package:lean/views/widget-of-the-week/spacer.dart';
 import 'package:lean/views/widget-of-the-week/stream_builder.dart';
 import 'package:lean/views/widget-of-the-week/table.dart';
 import 'package:lean/views/widget-of-the-week/tooltip.dart';
+import 'package:lean/views/widget-of-the-week/transform.dart';
+import 'package:lean/views/widget-of-the-week/valueListenable_builder.dart';
 import 'package:lean/views/widget-of-the-week/wrap.dart';
 
 class WidgetListRow {
@@ -64,23 +81,23 @@ class WidgetList {
     WidgetCustomPaint(),
     WidgetTooltip(),
     WidgetFittedBox(),
-    // WidgetLayoutBuilder(),
-    // WidgetAbsorbPointer(),
-    // WidgetTransform(),
-    // WidgetBackdropFilter(),
-    // WidgetAlign(),
-    // WidgetPositioned(),
-    // WidgetAnimatedBuilder(),
-    // WidgetDismissible(),
-    // WidgetSizedBox(),
-    // WidgetValueListenableBuilder(),
-    // WidgetDraggable(),
-    // WidgetAnimatedList(),
-    // WidgetFlexible(),
-    // WidgetMediaQuery(),
-    // WidgetSpacer(),
-    // WidgetInheritedWidget(),
-    // WidgetAnimatedIcon(),
+    WidgetLayoutBuilder(),
+    WidgetAbsorbPointer(),
+    WidgetTransform(),
+    WidgetBackdropFilter(),
+    WidgetAlign(),
+    WidgetPositioned(),
+    WidgetAnimatedBuilder(),
+    WidgetDismissible(),
+    WidgetSizedBox(),
+    WidgetValueListenableBuilder(),
+    WidgetDraggable(),
+    WidgetAnimatedList(),
+    WidgetFlexible(),
+    WidgetMediaQuery(),
+    WidgetSpacer(),
+    WidgetInheritedWidget(),
+    WidgetAnimatedIcon(),
     // WidgetAspectRatio(),
     // WidgetLimitedBox(),
     // WidgetPlaceholder(),
