@@ -6,6 +6,14 @@ Image image() {
       "https://1.bp.blogspot.com/-pOL-P7Mvgkg/YEGQAdidksI/AAAAAAABdc0/SbD0lC_X8iY_t5xLFtQYFC3FHFgziBuzgCNcBGAsYHQ/s932/buranko_businesswoman_sad.png");
 }
 
+/// 説明テキスト
+Widget explanationText(String text) {
+  return Container(
+    margin: EdgeInsets.all(10),
+    child: Text(text),
+  );
+}
+
 /// 説明用　横
 Widget explanationRowHorizontal(Widget widget, String explanation) {
   return Container(
@@ -32,8 +40,7 @@ Widget explanationRowVertical(Widget widget, String explanation) {
         Container(
           alignment: Alignment.topLeft,
           margin: EdgeInsets.only(bottom: 10),
-          child:
-              Text(explanation),
+          child: Text(explanation),
         ),
         Container(
             height: 100,
