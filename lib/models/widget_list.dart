@@ -23,6 +23,7 @@ import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
 import 'package:lean/views/widget-of-the-week/fitted_box.dart';
 import 'package:lean/views/widget-of-the-week/flexible.dart';
 import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
+import 'package:lean/views/widget-of-the-week/fractionally_sized_box.dart';
 import 'package:lean/views/widget-of-the-week/future_builder.dart';
 import 'package:lean/views/widget-of-the-week/hero.dart';
 import 'package:lean/views/widget-of-the-week/indexed_stack.dart';
@@ -124,7 +125,7 @@ class WidgetList {
     WidgetConstrainedBox(),
     WidgetStack(),
     WidgetAnimatedOpacity(),
-    // WidgetFractionallySizedBox(),
+    WidgetFractionallySizedBox(),
     // WidgetListView(),
     // WidgetListTile(),
     // WidgetContainer(),
