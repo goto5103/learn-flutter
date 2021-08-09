@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lean/views/widget-of-the-week/Image.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_widget.dart';
 import 'package:lean/views/widget-of-the-week/absorb_pointer.dart';
@@ -15,8 +16,10 @@ import 'package:lean/views/widget-of-the-week/animated_positioned.dart';
 import 'package:lean/views/widget-of-the-week/animated_switcher.dart';
 import 'package:lean/views/widget-of-the-week/backdrop_filter.dart';
 import 'package:lean/views/widget-of-the-week/clip_r_rect.dart';
+import 'package:lean/views/widget-of-the-week/color_filtered.dart';
 import 'package:lean/views/widget-of-the-week/constrained_box.dart';
 import 'package:lean/views/widget-of-the-week/container.dart';
+import 'package:lean/views/widget-of-the-week/cupertino_action_sheet.dart';
 import 'package:lean/views/widget-of-the-week/custom_paint.dart';
 import 'package:lean/views/widget-of-the-week/data_table.dart';
 import 'package:lean/views/widget-of-the-week/dismissible.dart';
@@ -55,8 +58,10 @@ import 'package:lean/views/widget-of-the-week/aspect_ratio.dart';
 import 'package:lean/views/widget-of-the-week/stack.dart';
 import 'package:lean/views/widget-of-the-week/stream_builder.dart';
 import 'package:lean/views/widget-of-the-week/table.dart';
+import 'package:lean/views/widget-of-the-week/toggle_buttons.dart';
 import 'package:lean/views/widget-of-the-week/tooltip.dart';
 import 'package:lean/views/widget-of-the-week/transform.dart';
+import 'package:lean/views/widget-of-the-week/tween_animation_builder.dart';
 import 'package:lean/views/widget-of-the-week/valueListenable_builder.dart';
 import 'package:lean/views/widget-of-the-week/wrap.dart';
 
@@ -144,11 +149,11 @@ class WidgetList {
     WidgetAlertDialog(),
     WidgetAnimatedCrossFade(),
     WidgetDraggableScrollableSheet(),
-    // WidgetColorFiltered(),
-    // WidgetToggleButtons(),
-    // WidgetCupertinoActionSheet(),
-    // WidgetTweenAnimationBuilder(),
-    // WidgetImage(),
+    WidgetColorFiltered(),
+    WidgetToggleButtons(),
+    WidgetCupertinoActionSheet(),
+    WidgetTweenAnimationBuilder(),
+    WidgetImage(),
     // WidgetDefaultTabController_TabBar(),
     // WidgetDrawer(),
     // WidgetSnackBar(),
