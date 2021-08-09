@@ -1,19 +1,69 @@
 import 'package:flutter/material.dart';
-import 'package:lean/views/Inherited_model.dart';
-import 'package:lean/views/animated_container.dart';
-import 'package:lean/views/expanded.dart';
-import 'package:lean/views/fadeInImage.dart';
-import 'package:lean/views/fadeTransition.dart';
-import 'package:lean/views/floating_action_button.dart';
-import 'package:lean/views/future_builder.dart';
-import 'package:lean/views/opacity.dart';
-import 'package:lean/views/page_view.dart';
-import 'package:lean/views/safearea.dart';
-import 'package:lean/views/sliver_app_bar.dart';
-import 'package:lean/views/sliver_list__sliver_grid.dart';
-import 'package:lean/views/stream_builder.dart';
-import 'package:lean/views/table.dart';
-import 'package:lean/views/wrap.dart';
+import 'package:lean/views/widget-of-the-week/Image.dart';
+import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
+import 'package:lean/views/widget-of-the-week/Inherited_widget.dart';
+import 'package:lean/views/widget-of-the-week/absorb_pointer.dart';
+import 'package:lean/views/widget-of-the-week/alert_dialog.dart';
+import 'package:lean/views/widget-of-the-week/align.dart';
+import 'package:lean/views/widget-of-the-week/animatedIcon.dart';
+import 'package:lean/views/widget-of-the-week/animated_builder.dart';
+import 'package:lean/views/widget-of-the-week/animated_container.dart';
+import 'package:lean/views/widget-of-the-week/animated_cross_fade.dart';
+import 'package:lean/views/widget-of-the-week/animated_list.dart';
+import 'package:lean/views/widget-of-the-week/animated_opacity.dart';
+import 'package:lean/views/widget-of-the-week/animated_padding.dart';
+import 'package:lean/views/widget-of-the-week/animated_positioned.dart';
+import 'package:lean/views/widget-of-the-week/animated_switcher.dart';
+import 'package:lean/views/widget-of-the-week/backdrop_filter.dart';
+import 'package:lean/views/widget-of-the-week/clip_r_rect.dart';
+import 'package:lean/views/widget-of-the-week/color_filtered.dart';
+import 'package:lean/views/widget-of-the-week/constrained_box.dart';
+import 'package:lean/views/widget-of-the-week/container.dart';
+import 'package:lean/views/widget-of-the-week/cupertino_action_sheet.dart';
+import 'package:lean/views/widget-of-the-week/custom_paint.dart';
+import 'package:lean/views/widget-of-the-week/data_table.dart';
+import 'package:lean/views/widget-of-the-week/dismissible.dart';
+import 'package:lean/views/widget-of-the-week/draggable.dart';
+import 'package:lean/views/widget-of-the-week/draggable_scrollable_sheet.dart';
+import 'package:lean/views/widget-of-the-week/expanded.dart';
+import 'package:lean/views/widget-of-the-week/fadeInImage.dart';
+import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
+import 'package:lean/views/widget-of-the-week/fitted_box.dart';
+import 'package:lean/views/widget-of-the-week/flexible.dart';
+import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
+import 'package:lean/views/widget-of-the-week/fractionally_sized_box.dart';
+import 'package:lean/views/widget-of-the-week/future_builder.dart';
+import 'package:lean/views/widget-of-the-week/hero.dart';
+import 'package:lean/views/widget-of-the-week/indexed_stack.dart';
+import 'package:lean/views/widget-of-the-week/layout_builder.dart';
+import 'package:lean/views/widget-of-the-week/limited_box.dart';
+import 'package:lean/views/widget-of-the-week/list_tile.dart';
+import 'package:lean/views/widget-of-the-week/list_view.dart';
+import 'package:lean/views/widget-of-the-week/media_query.dart';
+import 'package:lean/views/widget-of-the-week/opacity.dart';
+import 'package:lean/views/widget-of-the-week/page_view.dart';
+import 'package:lean/views/widget-of-the-week/placeholder.dart';
+import 'package:lean/views/widget-of-the-week/positioned.dart';
+import 'package:lean/views/widget-of-the-week/reorderable_list_view.dart';
+import 'package:lean/views/widget-of-the-week/rich_text.dart';
+import 'package:lean/views/widget-of-the-week/safearea.dart';
+import 'package:lean/views/widget-of-the-week/selectable_text.dart';
+import 'package:lean/views/widget-of-the-week/semantics.dart';
+import 'package:lean/views/widget-of-the-week/sized_box.dart';
+import 'package:lean/views/widget-of-the-week/slider__range_slider__cupertino_slider.dart';
+import 'package:lean/views/widget-of-the-week/sliver_app_bar.dart';
+import 'package:lean/views/widget-of-the-week/sliver_list__sliver_grid.dart';
+import 'package:lean/views/widget-of-the-week/spacer.dart';
+import 'package:lean/views/widget-of-the-week/aspect_ratio.dart';
+import 'package:lean/views/widget-of-the-week/stack.dart';
+import 'package:lean/views/widget-of-the-week/stream_builder.dart';
+import 'package:lean/views/widget-of-the-week/table.dart';
+import 'package:lean/views/widget-of-the-week/toggle_buttons.dart';
+import 'package:lean/views/widget-of-the-week/tooltip.dart';
+import 'package:lean/views/widget-of-the-week/transform.dart';
+import 'package:lean/views/widget-of-the-week/tween_animation_builder.dart';
+import 'package:lean/views/widget-of-the-week/valueListenable_builder.dart';
+import 'package:lean/views/widget-of-the-week/wrap.dart';
 
 class WidgetListRow {
   String widgetName; // 試すWidgetの名前
@@ -54,56 +104,56 @@ class WidgetList {
     WidgetFadeInImage(),
     WidgetStreamBuilder(),
     WidgetInheritedModel(),
-    // WidgetClipRRect(),
-    // WidgetHero(),
-    // WidgetCustomPaint(),
-    // WidgetTooltip(),
-    // WidgetFittedBox(),
-    // WidgetLayoutBuilder(),
-    // WidgetAbsorbPointer(),
-    // WidgetTransform(),
-    // WidgetBackdropFilter(),
-    // WidgetAlign(),
-    // WidgetPositioned(),
-    // WidgetAnimatedBuilder(),
-    // WidgetDismissible(),
-    // WidgetSizedBox(),
-    // WidgetValueListenableBuilder(),
-    // WidgetDraggable(),
-    // WidgetAnimatedList(),
-    // WidgetFlexible(),
-    // WidgetMediaQuery(),
-    // WidgetSpacer(),
-    // WidgetInheritedWidget(),
-    // WidgetAnimatedIcon(),
-    // WidgetAspectRatio(),
-    // WidgetLimitedBox(),
-    // WidgetPlaceholder(),
-    // WidgetRichText(),
-    // WidgetReorderableListView(),
-    // WidgetAnimatedSwitcher(),
-    // WidgetAnimatedPositioned(),
-    // WidgetAnimatedPadding(),
-    // WidgetIndexedStack(),
-    // WidgetSemantics(),
-    // WidgetConstrainedBox(),
-    // WidgetStack(),
-    // WidgetAnimatedOpacity(),
-    // WidgetFractionallySizedBox(),
-    // WidgetListView(),
-    // WidgetListTile(),
-    // WidgetContainer(),
-    // WidgetSelectableText(),
-    // WidgetDataTable(),
-    // WidgetSlider_RangeSlider_CupertinoSlider(),
-    // WidgetAlertDialog(),
-    // WidgetAnimatedCrossFade(),
-    // WidgetDraggableScrollableSheet(),
-    // WidgetColorFiltered(),
-    // WidgetToggleButtons(),
-    // WidgetCupertinoActionSheet(),
-    // WidgetTweenAnimationBuilder(),
-    // WidgetImage(),
+    WidgetClipRRect(),
+    WidgetHero(),
+    WidgetCustomPaint(),
+    WidgetTooltip(),
+    WidgetFittedBox(),
+    WidgetLayoutBuilder(),
+    WidgetAbsorbPointer(),
+    WidgetTransform(),
+    WidgetBackdropFilter(),
+    WidgetAlign(),
+    WidgetPositioned(),
+    WidgetAnimatedBuilder(),
+    WidgetDismissible(),
+    WidgetSizedBox(),
+    WidgetValueListenableBuilder(),
+    WidgetDraggable(),
+    WidgetAnimatedList(),
+    WidgetFlexible(),
+    WidgetMediaQuery(),
+    WidgetSpacer(),
+    WidgetInheritedWidget(),
+    WidgetAnimatedIcon(),
+    WidgetAspectRatio(),
+    WidgetLimitedBox(),
+    WidgetPlaceholder(),
+    WidgetRichText(),
+    WidgetReorderableListView(),
+    WidgetAnimatedSwitcher(),
+    WidgetAnimatedPositioned(),
+    WidgetAnimatedPadding(),
+    WidgetIndexedStack(),
+    WidgetSemantics(),
+    WidgetConstrainedBox(),
+    WidgetStack(),
+    WidgetAnimatedOpacity(),
+    WidgetFractionallySizedBox(),
+    WidgetListView(),
+    WidgetListTile(),
+    WidgetContainer(),
+    WidgetSelectableText(),
+    WidgetDataTable(),
+    WidgetSlider_RangeSlider_CupertinoSlider(),
+    WidgetAlertDialog(),
+    WidgetAnimatedCrossFade(),
+    WidgetDraggableScrollableSheet(),
+    WidgetColorFiltered(),
+    WidgetToggleButtons(),
+    WidgetCupertinoActionSheet(),
+    WidgetTweenAnimationBuilder(),
+    WidgetImage(),
     // WidgetDefaultTabController_TabBar(),
     // WidgetDrawer(),
     // WidgetSnackBar(),

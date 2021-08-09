@@ -7,7 +7,7 @@ class Root extends StatefulWidget {
 }
 
 class _RootState extends State<Root> {
-  final widgetList = WidgetList().getWidgetList();
+  List<String> list = ["/WidgetOfTheWeek"];
 
   @override
   Widget build(BuildContext context) {
@@ -25,14 +25,14 @@ class _RootState extends State<Root> {
                 ),
               ),
               child: ListTile(
-                title: Text("${widgetList[index].displayName}"),
+                title: Text("${list[index]}"),
                 // subtitle: Text('&listItem'),
                 onTap: () {
-                  Navigator.of(context).pushNamed("${widgetList[index].path}");
+                  Navigator.of(context).pushNamed("${list[index]}");
                 },
               ));
         },
-        itemCount: widgetList.length,
+        itemCount: list.length,
       ),
     );
   }
