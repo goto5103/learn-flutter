@@ -75,6 +75,7 @@ class _WidgetFittedBoxState extends State<WidgetFittedBox> {
           _explanationRow(
               FittedBox(
                   fit: BoxFit.cover,
+                  clipBehavior: Clip.hardEdge,
                   child: Container(
                       height: 150,
                       width: 50,
