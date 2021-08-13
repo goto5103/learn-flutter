@@ -5,7 +5,11 @@ Image image() {
   return Image.network(
       "https://1.bp.blogspot.com/-pOL-P7Mvgkg/YEGQAdidksI/AAAAAAABdc0/SbD0lC_X8iY_t5xLFtQYFC3FHFgziBuzgCNcBGAsYHQ/s932/buranko_businesswoman_sad.png");
 }
-
+Image imageH200() {
+  return Image.network(
+      "https://1.bp.blogspot.com/-pOL-P7Mvgkg/YEGQAdidksI/AAAAAAABdc0/SbD0lC_X8iY_t5xLFtQYFC3FHFgziBuzgCNcBGAsYHQ/s932/buranko_businesswoman_sad.png",
+      height: 200,);
+}
 /// 説明テキスト
 Widget explanationText(String text) {
   return Container(
