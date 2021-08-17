@@ -36,15 +36,19 @@ import 'package:lean/views/widget-of-the-week/draggable.dart';
 import 'package:lean/views/widget-of-the-week/draggable_scrollable_sheet.dart';
 import 'package:lean/views/widget-of-the-week/drawer.dart';
 import 'package:lean/views/widget-of-the-week/expanded.dart';
+import 'package:lean/views/widget-of-the-week/expansion_panel.dart';
 import 'package:lean/views/widget-of-the-week/fadeInImage.dart';
 import 'package:lean/views/widget-of-the-week/fadeTransition.dart';
 import 'package:lean/views/widget-of-the-week/fitted_box.dart';
 import 'package:lean/views/widget-of-the-week/flexible.dart';
 import 'package:lean/views/widget-of-the-week/floating_action_button.dart';
+import 'package:lean/views/widget-of-the-week/flutter_fogo.dart';
 import 'package:lean/views/widget-of-the-week/fractionally_sized_box.dart';
 import 'package:lean/views/widget-of-the-week/future_builder.dart';
+import 'package:lean/views/widget-of-the-week/grid_view.dart';
 import 'package:lean/views/widget-of-the-week/hero.dart';
 import 'package:lean/views/widget-of-the-week/ignore_pointer.dart';
+import 'package:lean/views/widget-of-the-week/image_filtered.dart';
 import 'package:lean/views/widget-of-the-week/indexed_stack.dart';
 import 'package:lean/views/widget-of-the-week/interactive_viewer.dart';
 import 'package:lean/views/widget-of-the-week/layout_builder.dart';
@@ -53,19 +57,30 @@ import 'package:lean/views/widget-of-the-week/list_tile.dart';
 import 'package:lean/views/widget-of-the-week/list_view.dart';
 import 'package:lean/views/widget-of-the-week/list_wheel_scroll_view.dart';
 import 'package:lean/views/widget-of-the-week/media_query.dart';
+import 'package:lean/views/widget-of-the-week/mouse_region.dart';
 import 'package:lean/views/widget-of-the-week/notification_listener.dart';
 import 'package:lean/views/widget-of-the-week/opacity.dart';
+import 'package:lean/views/widget-of-the-week/package__animated_text_kit.dart';
+import 'package:lean/views/widget-of-the-week/package__animations.dart';
 import 'package:lean/views/widget-of-the-week/package__async.dart';
+import 'package:lean/views/widget-of-the-week/package__connectivity.dart';
+import 'package:lean/views/widget-of-the-week/package__device_info.dart';
+import 'package:lean/views/widget-of-the-week/package__flutter_slidable.dart';
+import 'package:lean/views/widget-of-the-week/package__location.dart';
+import 'package:lean/views/widget-of-the-week/package__sensors_plus.dart';
 import 'package:lean/views/widget-of-the-week/package__sliver_app_bar.dart';
 import 'package:lean/views/widget-of-the-week/package__sqflite.dart';
 import 'package:lean/views/widget-of-the-week/package__url_launcher.dart';
 import 'package:lean/views/widget-of-the-week/padding.dart';
 import 'package:lean/views/widget-of-the-week/page_view.dart';
+import 'package:lean/views/widget-of-the-week/physical_model.dart';
 import 'package:lean/views/widget-of-the-week/placeholder.dart';
 import 'package:lean/views/widget-of-the-week/positioned.dart';
 import 'package:lean/views/widget-of-the-week/reorderable_list_view.dart';
 import 'package:lean/views/widget-of-the-week/rich_text.dart';
+import 'package:lean/views/widget-of-the-week/rotated_box.dart';
 import 'package:lean/views/widget-of-the-week/safearea.dart';
+import 'package:lean/views/widget-of-the-week/scrollbar.dart';
 import 'package:lean/views/widget-of-the-week/selectable_text.dart';
 import 'package:lean/views/widget-of-the-week/semantics.dart';
 import 'package:lean/views/widget-of-the-week/shader_mask.dart';
@@ -78,6 +93,7 @@ import 'package:lean/views/widget-of-the-week/spacer.dart';
 import 'package:lean/views/widget-of-the-week/aspect_ratio.dart';
 import 'package:lean/views/widget-of-the-week/stack.dart';
 import 'package:lean/views/widget-of-the-week/stream_builder.dart';
+import 'package:lean/views/widget-of-the-week/switch_list_tile.dart';
 import 'package:lean/views/widget-of-the-week/table.dart';
 import 'package:lean/views/widget-of-the-week/toggle_buttons.dart';
 import 'package:lean/views/widget-of-the-week/tooltip.dart';
@@ -198,23 +214,22 @@ class WidgetList {
     WidgetPackage__sqflite(),
     WidgetPackage__SliverAppBar(),
     WidgetInteractiveViewer(),
-    // WidgetGridView(),
-    // WidgetSwitchListTile(),
-    // WidgetPackage__location(),
-    // WidgetPackage__Device_info(),
-    // WidgetImageFiltered(),
-    // WidgetPhysicalModel(),
-    // WidgetPackage__Animations(),
-    // WidgetPackage__flutter_slidable(),
-    // WidgetRotatedBox(),
-    // WidgetExpansionPanel(),
-    // WidgetScrollbar(),
-    // WidgetPackage__connectivity(),
-    // WidgetFlutterLogo(),
-    // WidgetPackage__animated_text_kit(),
-    // WidgetMouseRegion(),
-    // WidgetPackage__sensors_plus(),
-    // 追加するまではコメントアウト
+    WidgetGridView(),
+    WidgetSwitchListTile(),
+    WidgetPackage__location(),
+    WidgetPackage__Device_info(),
+    WidgetImageFiltered(),
+    WidgetPhysicalModel(),
+    WidgetPackage__Animations(),
+    WidgetPackage__flutter_slidable(),
+    WidgetRotatedBox(),
+    WidgetExpansionPanel(),
+    WidgetScrollbar(),
+    WidgetPackage__connectivity(),
+    WidgetFlutterLogo(),
+    WidgetPackage__animated_text_kit(),
+    WidgetMouseRegion(),
+    WidgetPackage__sensors_plus(),
   ];
   WidgetList() {
     this._widgetList = createWidgetList();
