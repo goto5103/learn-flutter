@@ -19,36 +19,10 @@ class _WidgetPackage__asyncState extends State<WidgetPackage__async> {
       ),
       body: Column(
         children: [
-          explanationText("2つのストリームをマージする"),
-          // Row(
-          //   children: [
-          //     Text("ストリーム１："),
-          //               StreamBuilder<int>(
-          //     stream: _s1,
-          //     builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
-          //       if (!snapshot.hasData) {
-          //         return CircularProgressIndicator();
-          //       }
-          //       return Text(snapshot.data.toString());
-          //     })
-          //   ],
-          // ),
-          // Row(
-          //   children: [
-          //     Text("ストリーム２："),
-          //               StreamBuilder<int>(
-          //     stream: _s2,
-          //     builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
-          //       if (!snapshot.hasData) {
-          //         return CircularProgressIndicator();
-          //       }
-          //       return Text(snapshot.data.toString());
-          //     })
-          //   ],
-          // ),
+          explanationText("非同期パッケージ　async"),
           Row(
             children: [
-              Text("マージしたストリーム："),
+              Text("2つのストリームをマージする："),
               StreamBuilder<int>(
                   stream: streamTest(),
                   builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
