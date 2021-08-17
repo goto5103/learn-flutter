@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lean/views/widget-of-the-week/Image.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_model.dart';
 import 'package:lean/views/widget-of-the-week/Inherited_widget.dart';
+import 'package:lean/views/widget-of-the-week/about_dialog.dart';
 import 'package:lean/views/widget-of-the-week/absorb_pointer.dart';
 import 'package:lean/views/widget-of-the-week/alert_dialog.dart';
 import 'package:lean/views/widget-of-the-week/align.dart';
@@ -16,6 +17,7 @@ import 'package:lean/views/widget-of-the-week/animated_positioned.dart';
 import 'package:lean/views/widget-of-the-week/animated_switcher.dart';
 import 'package:lean/views/widget-of-the-week/animated_widget.dart';
 import 'package:lean/views/widget-of-the-week/backdrop_filter.dart';
+import 'package:lean/views/widget-of-the-week/checkbox_list_tile.dart';
 import 'package:lean/views/widget-of-the-week/circular_progress_indicator__linear_progress_indicator.dart';
 import 'package:lean/views/widget-of-the-week/clip_oval.dart';
 import 'package:lean/views/widget-of-the-week/clip_path.dart';
@@ -44,6 +46,7 @@ import 'package:lean/views/widget-of-the-week/future_builder.dart';
 import 'package:lean/views/widget-of-the-week/hero.dart';
 import 'package:lean/views/widget-of-the-week/ignore_pointer.dart';
 import 'package:lean/views/widget-of-the-week/indexed_stack.dart';
+import 'package:lean/views/widget-of-the-week/interactive_viewer.dart';
 import 'package:lean/views/widget-of-the-week/layout_builder.dart';
 import 'package:lean/views/widget-of-the-week/limited_box.dart';
 import 'package:lean/views/widget-of-the-week/list_tile.dart';
@@ -52,6 +55,10 @@ import 'package:lean/views/widget-of-the-week/list_wheel_scroll_view.dart';
 import 'package:lean/views/widget-of-the-week/media_query.dart';
 import 'package:lean/views/widget-of-the-week/notification_listener.dart';
 import 'package:lean/views/widget-of-the-week/opacity.dart';
+import 'package:lean/views/widget-of-the-week/package__async.dart';
+import 'package:lean/views/widget-of-the-week/package__sliver_app_bar.dart';
+import 'package:lean/views/widget-of-the-week/package__sqflite.dart';
+import 'package:lean/views/widget-of-the-week/package__url_launcher.dart';
 import 'package:lean/views/widget-of-the-week/padding.dart';
 import 'package:lean/views/widget-of-the-week/page_view.dart';
 import 'package:lean/views/widget-of-the-week/placeholder.dart';
@@ -184,13 +191,13 @@ class WidgetList {
     WidgetClipOval(),
     WidgetAnimatedWidget(),
     WidgetPadding(),
-    // WidgetCheckboxListTile(),
-    // WidgetAboutDialog(),
-    // WidgetPackage__async(),
-    // WidgetPackage__url_launcher(),
-    // WidgetPackage__sqflite(),
-    // WidgetPackage__SliverAppBar(),
-    // WidgetInteractiveViewer(),
+    WidgetCheckboxListTile(),
+    WidgetAboutDialog(),
+    WidgetPackage__async(),
+    WidgetPackage__url_launcher(),
+    WidgetPackage__sqflite(),
+    WidgetPackage__SliverAppBar(),
+    WidgetInteractiveViewer(),
     // WidgetGridView(),
     // WidgetSwitchListTile(),
     // WidgetPackage__location(),
