@@ -16,23 +16,26 @@ class _WidgetOfTheWeekState extends State<WidgetOfTheWeek> {
         title: Text("Widget Of The Week"),
         centerTitle: true,
       ),
-      body: ListView.builder(
-        itemBuilder: (BuildContext context, int index) {
-          return Container(
-              decoration: BoxDecoration(
-                border: Border(
-                  bottom: BorderSide(color: Colors.black38),
+      body: Scrollbar(
+        child: ListView.builder(
+          itemBuilder: (BuildContext context, int index) {
+            return Container(
+                decoration: BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(color: Colors.black38),
+                  ),
                 ),
-              ),
-              child: ListTile(
-                title: Text("${widgetList[index].displayName}"),
-                // subtitle: Text('&listItem'),
-                onTap: () {
-                  Navigator.of(context).pushNamed("${widgetList[index].path}");
-                },
-              ));
-        },
-        itemCount: widgetList.length,
+                child: ListTile(
+                  title: Text("${widgetList[index].displayName}"),
+                  // subtitle: Text('&listItem'),
+                  onTap: () {
+                    Navigator.of(context)
+                        .pushNamed("${widgetList[index].path}");
+                  },
+                ));
+          },
+          itemCount: widgetList.length,
+        ),
       ),
     );
   }
