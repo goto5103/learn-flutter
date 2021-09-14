@@ -12,4 +12,6 @@
 
 ## サンプル
 
-保留
+![image-20210915001150257](img/%2315_InheritedModel/image-20210915001150257.png)
+
+![image-20210915001156901](img/%2315_InheritedModel/image-20210915001156901.png)
