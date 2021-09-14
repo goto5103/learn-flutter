@@ -12,7 +12,3 @@
 ## サンプル
 
 ![image-20210722112418462](img/%238_FloatingActionButton/image-20210722112418462.png)
-
-## 派生元
-
-StatelessWidget

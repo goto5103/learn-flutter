@@ -18,7 +18,3 @@
 ![image-20210722001444861](img/%236_FutureBuilder/image-20210722001444861.png)
 
 ![image-20210722001450636](img/%236_FutureBuilder/image-20210722001450636.png)
-
-## 派生元
-
-StatefulWidget

@@ -13,7 +13,3 @@
 ![image-20210722094437452](img/%237_FadeTransition/image-20210722094437452.png)
 
 ![image-20210722094457999](img/%237_FadeTransition/image-20210722094457999.png)
-
-## 派生元
-
-SingleChildRenderObjectWidget

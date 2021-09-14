@@ -116,7 +116,7 @@ class WidgetListRow {
     this.number,
     this.isDisplay: true,
   }) {
-    this.widgetName = widget.toString().replaceAll('Widget', '');
+    this.widgetName = widget.toString().replaceFirst('Widget', '');
     this.widgetBuilder = (BuildContext context) => widget;
     this.path = "/${this.widgetName}";
     this.displayName = "#${this.number} ${this.widgetName}";

@@ -15,7 +15,3 @@
 ![image-20210722121111326](img/%239_PageView/image-20210722121111326.png)
 
 ![image-20210722120955020](img/%239_PageView/image-20210722120955020.png)
-
-## 派生元
-
-StatefulWidget

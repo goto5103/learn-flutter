@@ -12,7 +12,3 @@
 ## サンプル
 
 ![image-20210722165613989](img/%2310_Table/image-20210722165613989.png)
-
-## 派生元
-
-RenderObjectWidget

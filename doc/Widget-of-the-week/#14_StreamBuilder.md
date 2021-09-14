@@ -17,6 +17,4 @@
 
 ![image-20210731113805984](img/%2314_StreamBuilder/image-20210731113805984.png)
 
-## 派生元
-
-StreamBuilderBase > StatefulWidget
+> StatefulWidget

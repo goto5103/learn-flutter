@@ -13,7 +13,3 @@
 ## サンプル
 
 保留
-
-## 派生元
-
-InheritedWidget

@@ -21,7 +21,3 @@ floating:true, pinned:false, snap: true の場合の動き
 ![image-20210725164056382](img/%2311_SliverAppBar/image-20210725164056382.png)
 
 ![image-20210725164114344](img/%2311_SliverAppBar/image-20210725164114344.png)
-
-## 派生元
-
-StatefulWidget

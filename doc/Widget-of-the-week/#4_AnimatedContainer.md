@@ -16,7 +16,3 @@
 ![image-20210721212145899](img/%234_AnimatedContainer/image-20210721212145899.png)
 
 ![image-20210721212209555](img/%234_AnimatedContainer/image-20210721212209555.png)
-
-## 派生元
-
-ImplicitlyAnimatedWidget

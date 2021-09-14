@@ -15,7 +15,3 @@
 ![image-20210721223421386](img/%235_Opacity/image-20210721223421386.png)
 
 ![image-20210721223432459](img/%235_Opacity/image-20210721223432459.png)
-
-## 派生元
-
-ImplicitlyAnimatedWidget

@@ -40,16 +40,16 @@ class _WidgetSafeAreaState extends State<WidgetSafeArea> {
                     ),
                   );
                 }),
-          floatingActionButton: StoreConnector<AppState,VoidCallback>(
+          floatingActionButton: StoreConnector<AppState, VoidCallback>(
             converter: (store) => () => store.dispatch(SafeAreaAction()),
             builder: (context, dispatchIncrement) {
-          return FloatingActionButton(
-            backgroundColor: isEnable ?  Colors.blue : Colors.grey,
-            onPressed: dispatchIncrement,
-            tooltip: 'Increment',
-            child: Icon(Icons.check),
-          );
-        },
+              return FloatingActionButton(
+                backgroundColor: isEnable ? Colors.blue : Colors.grey,
+                onPressed: dispatchIncrement,
+                tooltip: 'Increment',
+                child: Icon(Icons.check),
+              );
+            },
           ),
         );
       },

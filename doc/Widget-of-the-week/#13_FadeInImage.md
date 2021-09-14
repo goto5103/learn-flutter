@@ -14,7 +14,3 @@
 ![image-20210726234910054](img/%2313_FadeInImage/image-20210726234910054.png)
 ロードが終わるとネットワークの画像を表示
 ![image-20210726234913607](img/%2313_FadeInImage/image-20210726234913607.png)
-
-## 派生元
-
-StatelessWidget

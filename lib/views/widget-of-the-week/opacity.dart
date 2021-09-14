@@ -26,6 +26,8 @@ class _WidgetOpacityState extends State<WidgetOpacity> {
     );
   }
 
+// Opacity でラップし、透明度をセットする。
+// AnimatedOpacity の場合、duration をセットしてどのくらいの時間で変化するか指定する。
   @override
   Widget build(BuildContext context) {
     return Scaffold(
