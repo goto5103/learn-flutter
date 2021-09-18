@@ -13,11 +13,10 @@ class _WidgetBuilderState extends State<WidgetBuilderSample> {
         title: Text("Builder"),
         centerTitle: true,
       ),
-      body: ElevatedButton(
-        onPressed: () {
-          Navigator.of(context).pop();
+      body: Builder(
+        builder: (context) {
+          return Text("親のcontextを参照したScaffold.of(context).hasAppBarの値 \n${Scaffold.of(context).hasAppBar}");
         },
-        child: Text("data"),
       ),
     );
   }
