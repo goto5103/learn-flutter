@@ -1,12 +1,12 @@
-#
+# #3 Wrap
 
-動画：
+動画：https://www.youtube.com/watch?v=z5iw2SeFx2M
 
 リファレンス：
 
 ## 概要
 
--
+- Row や Column が子 Widget が画面からはみ出してしまう場合に折り返すために使用する。
 
 ## サンプル
 

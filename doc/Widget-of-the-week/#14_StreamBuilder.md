@@ -16,5 +16,3 @@
 ![image-20210731113759496](img/%2314_StreamBuilder/image-20210731113759496.png)
 
 ![image-20210731113805984](img/%2314_StreamBuilder/image-20210731113805984.png)
-
-> StatefulWidget

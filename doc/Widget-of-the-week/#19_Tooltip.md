@@ -1,12 +1,13 @@
-#
+# #19 Tooltip
 
-動画：
+動画：https://www.youtube.com/watch?v=EeEfD5fI-5Q
 
-リファレンス：
+リファレンス：https://api.flutter.dev/flutter/material/Tooltip-class.html
 
 ## 概要
 
--
+- アイコン等を長押しした際にテキストメッセージを表示する。
+- 音声読み上げにも対応している。
 
 ## サンプル
 

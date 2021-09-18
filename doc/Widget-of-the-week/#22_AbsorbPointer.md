@@ -1,12 +1,12 @@
-#
+# #22 AbsorbPointer
 
-動画：
+動画：https://www.youtube.com/watch?v=65HoWqBboI8
 
-リファレンス：
+リファレンス：https://api.flutter.dev/flutter/widgets/AbsorbPointer-class.html
 
 ## 概要
 
--
+- 複数 Widget の入力をまとめて無効にすることができる。
 
 ## サンプル
 

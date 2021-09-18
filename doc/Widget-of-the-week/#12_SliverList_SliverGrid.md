@@ -24,6 +24,3 @@ SliverAppBar を使用してヘッダを差し込むことも可能
 ![image-20210725232244010](img/%2312_SliverList_SliverGrid/image-20210725232244010.png)
 
 ![image-20210725232253137](img/%2312_SliverList_SliverGrid/image-20210725232253137.png)
-
-→ 　 SliverWithKeepAliveWidget 　 → 　 RenderObjectWidget
-（SliverList、SliverGrid ともに同じ）
