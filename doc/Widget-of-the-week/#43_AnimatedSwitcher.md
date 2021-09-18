@@ -4,18 +4,14 @@
 
 リファレンス：
 
-## 何をする Widget か？
+## 概要
 
 -
 
-## 使い方
-
-```dart
-
-```
-
 ## サンプル
 
-## 内部
+![image-20210915005824778](img/%2343_AnimatedSwitcher/image-20210915005824778.png)
 
-継承：
+![image-20210915005836384](img/%2343_AnimatedSwitcher/image-20210915005836384.png)
+
+![image-20210915005841719](img/%2343_AnimatedSwitcher/image-20210915005841719.png)

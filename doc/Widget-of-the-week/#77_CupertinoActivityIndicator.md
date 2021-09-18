@@ -4,18 +4,10 @@
 
 リファレンス：
 
-## 何をする Widget か？
+## 概要
 
 -
 
-## 使い方
-
-```dart
-
-```
-
 ## サンプル
 
-## 内部
-
-継承：
+![image-20210915013947212](img/%2377_CupertinoActivityIndicator/image-20210915013947212.png)

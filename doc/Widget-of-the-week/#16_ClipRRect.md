@@ -1,21 +1,13 @@
-#
+# #16 ClipRRect
 
-動画：
+動画：https://www.youtube.com/watch?v=eI43jkQkrvs
 
-リファレンス：
+リファレンス：https://api.flutter.dev/flutter/widgets/ClipRRect-class.html
 
-## 何をする Widget か？
+## 概要
 
--
-
-## 使い方
-
-```dart
-
-```
+- 画像などの Widget の角を丸くする。
 
 ## サンプル
 
-## 内部
-
-継承：
+![image-20210915001239269](img/%2316_ClipRRect/image-20210915001239269.png)

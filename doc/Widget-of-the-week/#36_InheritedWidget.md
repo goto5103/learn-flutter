@@ -4,18 +4,13 @@
 
 リファレンス：
 
-## 何をする Widget か？
+## 概要
 
--
-
-## 使い方
-
-```dart
-
-```
+- Provider パッケージや MediaQuery、Theme に継承されている。
+  直接使用することはあまりないらしい。
 
 ## サンプル
 
-## 内部
+![image-20210915005621841](img/%2336_InheritedWidget/image-20210915005621841.png)
 
-継承：
+![image-20210915005626174](img/%2336_InheritedWidget/image-20210915005626174.png)

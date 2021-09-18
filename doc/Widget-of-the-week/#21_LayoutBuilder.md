@@ -1,21 +1,15 @@
-#
+# #21 LayoutBuilder
 
-動画：
+動画：https://www.youtube.com/watch?v=IYDVcriKjsw
 
-リファレンス：
+リファレンス：https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html
 
-## 何をする Widget か？
+## 概要
 
--
-
-## 使い方
-
-```dart
-
-```
+- Widget のサイズに応じて Widget のレイアウトを変更できる。
 
 ## サンプル
 
-## 内部
+![image-20210915001731350](img/%2321_LayoutBuilder/image-20210915001731350.png)
 
-継承：
+![image-20210915001801140](img/%2321_LayoutBuilder/image-20210915001801140.png)

@@ -4,18 +4,12 @@
 
 リファレンス：
 
-## 何をする Widget か？
+## 概要
 
 -
 
-## 使い方
-
-```dart
-
-```
-
 ## サンプル
 
-## 内部
+![image-20210915011518700](img/%2366_DefaultTabController_TabBar/image-20210915011518700.png)
 
-継承：
+![image-20210915011524200](img/%2366_DefaultTabController_TabBar/image-20210915011524200.png)

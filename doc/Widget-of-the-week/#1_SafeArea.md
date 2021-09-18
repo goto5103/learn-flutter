@@ -1,21 +1,16 @@
-#
+# #1 SafeArea
 
-動画：
+動画：https://www.youtube.com/watch?v=lkF0TQJO0bA&t=36s
 
-リファレンス：
+リファレンス：https://api.flutter.dev/flutter/widgets/SafeArea-class.html
 
-## 何をする Widget か？
+## 概要
 
--
-
-## 使い方
-
-```dart
-
-```
+- 複雑化するデバイス形状に対応するようにレイアウト調整を行う。
+- iPhone の上部ノッチや丸みを帯びた角によって文字が見切れたり隠れたりしないようにする。
 
 ## サンプル
 
-## 内部
+![image-20210915000759368](img/%231_SafeArea/image-20210915000759368.png)
 
-継承：
+![image-20210915000807588](img/%231_SafeArea/image-20210915000807588.png)

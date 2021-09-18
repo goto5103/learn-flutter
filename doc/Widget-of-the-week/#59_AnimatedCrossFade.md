@@ -4,18 +4,14 @@
 
 リファレンス：
 
-## 何をする Widget か？
+## 概要
 
 -
 
-## 使い方
-
-```dart
-
-```
-
 ## サンプル
 
-## 内部
+![image-20210915011147018](img/%2359_AnimatedCrossFade/image-20210915011147018.png)
 
-継承：
+![image-20210915011152448](img/%2359_AnimatedCrossFade/image-20210915011152448.png)
+
+![image-20210915011155679](img/%2359_AnimatedCrossFade/image-20210915011155679.png)
