@@ -61,7 +61,8 @@ class _WidgetStackState extends State<WidgetStack> {
           explanationText("はみ出る場合は、外枠まで飛び出すかはみ出た分を切り取るか選択できる"),
           Stack(
             alignment: AlignmentDirectional.center,
-            overflow: Overflow.visible,
+            clipBehavior: Clip.none,
+            // overflow: Overflow.visible, // 非推奨に
             children: [
               Container(
                 width: 80,
